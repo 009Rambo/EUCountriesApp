@@ -48,7 +48,8 @@ EUCountriesApp is a SwiftUI-based iOS app that provides an interactive way to le
 </p>
 
 ## 🛠️ Project Structure
-`
+```bash
+
 EUCountriesApp/
 │
 ├────── Models/
@@ -63,7 +64,7 @@ EUCountriesApp/
 │ └── ContentView.swift
 │
 ├── EUCountriesApp.swift
-`
+```
 yaml
 Copy
 Edit
