@@ -35,15 +35,15 @@ EUCountriesApp is a SwiftUI-based iOS app that provides an interactive way to le
 
 ## 🖼️ Screenshots
 
-> _Screenshots will be added here soon_
+> _Screenshots from emulator_
 
-<p align="center">
+<p align="left">
   <img src="Images/screenshot-dark.png" alt="App Screenshot" width="300"/>
 </p>
 
 ----------
 
-<p align="center">
+<p align="right">
   <img src="Images/screenshot-light.png" alt="App Screenshot" width="300"/>
 </p>
 
@@ -65,11 +65,9 @@ EUCountriesApp/
 │
 ├── EUCountriesApp.swift
 ```
-yaml
-Copy
-Edit
 
----
+
+-------
 
 ## 📦 Dependencies
 
