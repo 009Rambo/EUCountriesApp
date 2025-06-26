@@ -50,8 +50,11 @@ EUCountriesApp is a SwiftUI-based iOS app that provides an interactive way to le
 ## 🛠️ Project Structure
 
 EUCountriesApp/
+
 ├── Models/
+
 │ └── Country.swift
+
 ├── ViewModels/
 │ └── CountryViewModel.swift
 ├── Views/
