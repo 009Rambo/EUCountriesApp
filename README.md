@@ -97,4 +97,4 @@ Feel free to reach out via GitHub issues or open a discussion.
 
 ---
 
-> Made with ❤️ using SwiftUI
+> Made with 💛 using SwiftUI
