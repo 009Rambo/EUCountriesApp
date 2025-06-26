@@ -39,10 +39,8 @@ EUCountriesApp is a SwiftUI-based iOS app that provides an interactive way to le
 
 <p align="left">
   <img src="Images/screenshot-dark.png" alt="App Screenshot" width="300"/>
-</p>
 
-
-<p align="right">
+ align="right">
   <img src="Images/screenshot-light.png" alt="App Screenshot" width="300"/>
 </p>
 
