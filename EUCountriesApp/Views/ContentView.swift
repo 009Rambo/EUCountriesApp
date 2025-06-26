@@ -10,9 +10,17 @@ import SwiftUI
 struct ContentView: View {
     
     @StateObject private var viewModel = CountryViewModel()
+    @State private var isDarkMode: Bool = false
 
     var body: some View {
         VStack(spacing: 20) {
+            
+            Toggle(isOn: $isDarkMode) {
+                Label(isDarkMode ? "Dark Mode" : "Bright Mode", systemImage: isDarkMode ? "moon.fill" : "sun.max.fill")
+                    .font(.headline)
+            }
+                            .padding()
+                            .toggleStyle(SwitchToggleStyle(tint: .blue))
             
                 Text("Welcome :) to the InfoEUApp")
                     .foregroundColor(.blue)
@@ -30,6 +38,11 @@ struct ContentView: View {
                 }
                 .pickerStyle(MenuPickerStyle())
             }
+            
+            .padding()
+            .background(Color(.secondarySystemBackground))
+            .cornerRadius(10)
+            
 
             if let country = viewModel.selectedCountry {
                 VStack(alignment: .leading, spacing: 10) {
@@ -66,11 +79,16 @@ struct ContentView: View {
                             .underline()
                     }
                 }
+                .padding()
+                .background(Color(.systemBackground))
+                .cornerRadius(12)
+                .shadow(radius: 5)
             }
         }
         .onAppear {
             viewModel.fetchCountries()
         }
+        
+        .preferredColorScheme(isDarkMode ? .dark : .light)
     }
-
 }
