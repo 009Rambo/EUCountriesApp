@@ -51,7 +51,7 @@ EUCountriesApp is a SwiftUI-based iOS app that provides an interactive way to le
 
 EUCountriesApp/
 │
-├── Models/
+├ - ── Models/
 │ │
 │ └── Country.swift
 │
