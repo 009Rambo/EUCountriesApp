@@ -37,12 +37,11 @@ EUCountriesApp is a SwiftUI-based iOS app that provides an interactive way to le
 
 > _Screenshots from emulator_
 
-<p align="left">
-  <img src="Images/screenshot-dark.png" alt="App Screenshot" width="300"/>
-
- align="right">
-  <img src="Images/screenshot-light.png" alt="App Screenshot" width="300"/>
+<p align="center">
+  <img src="Images/screenshot-dark.png" alt="Dark Mode Screenshot" width="300"/>
+  <img src="Images/screenshot-light.png" alt="Light Mode Screenshot" width="300"/>
 </p>
+
 
 ## 🛠️ Project Structure
 ```bash
