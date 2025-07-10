@@ -44,7 +44,7 @@ EUCountriesApp is a SwiftUI-based iOS app that provides an interactive way to le
 
 
 ## 🖼️ 📹 App Video preview
-▶️ [Click to watch the demo video](Images/ScreenVideo.mov)
+▶️ [Click to watch the demo video](https://github.com/user-attachments/assets/36270767-4baa-48bb-a0e4-efd05bb26db0)
 
 ## 🛠️ Project Structure
 ```bash
